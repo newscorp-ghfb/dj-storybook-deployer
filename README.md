@@ -2,6 +2,9 @@
 
 This is a simple tool allows you to deploy your Storybook into a static hosting service. (Currently, GitHub Pages and AWS S3 beta)
 
+## FORK
+This forked repo includes a [bugfix](https://github.com/storybookjs/storybook-deployer/pull/102) that we need for github action compatability.
+
 ```sh
 $ storybook-to-ghpages --help
 $ storybook-to-aws-s3 --help
