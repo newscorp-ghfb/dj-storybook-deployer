@@ -1,9 +1,11 @@
+# FORKED REPO
+This forked repo includes a [bugfix](https://github.com/storybookjs/storybook-deployer/pull/102) that we need for github action compatability.
+
+It's currently in use by the [`dj-rendering`](https://github.com/newscorp-ghfb/dj-rendering) monorepo and was applied in [this PR](https://github.com/newscorp-ghfb/dj-rendering/pull/251).
+
 # Storybook Deployer
 
 This is a simple tool allows you to deploy your Storybook into a static hosting service. (Currently, GitHub Pages and AWS S3 beta)
-
-## FORK
-This forked repo includes a [bugfix](https://github.com/storybookjs/storybook-deployer/pull/102) that we need for github action compatability.
 
 ```sh
 $ storybook-to-ghpages --help
